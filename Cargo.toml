@@ -1,0 +1,22 @@
+[package]
+name = "updirector"
+version = "0.1.0"
+authors = ["Todd Stellanova <tstellanova@users.noreply.github.com>"]
+edition = "2018"
+autobins = false
+
+
+[dependencies]
+lambda_runtime = "^0.1"
+serde = "^1"
+serde_json = "^1"
+serde_derive = "^1"
+log = "^0.4"
+simple_logger = "^1"
+ruptane_common = {git = " https://github.com/tstellanova/ruptane_common.git " }
+#ruptane_common = {path="../ruptane_common"}
+
+
+[[bin]]
+name = "bootstrap"
+path = "src/main.rs"
