@@ -13,8 +13,8 @@ serde_json = "^1"
 serde_derive = "^1"
 log = "^0.4"
 simple_logger = "^1"
-ruptane_common = {git = " https://github.com/tstellanova/ruptane_common.git " }
-#ruptane_common = {path="../ruptane_common"}
+#ruptane_common = {git = " https://github.com/tstellanova/ruptane_common.git " }
+ruptane_common = {path="../ruptane_common"}
 
 
 [[bin]]
